@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/testlab/static/css/main.83bfc13d.css",
+    "main.js": "/testlab/static/js/main.b64788fb.js",
+    "static/js/453.c6770f9a.chunk.js": "/testlab/static/js/453.c6770f9a.chunk.js",
+    "static/media/Lunch_atop_a_Skyscraper 1.png": "/testlab/static/media/Lunch_atop_a_Skyscraper 1.66ed08daeba30fb27403.png",
+    "static/media/GraphikLCG-Bold.ttf": "/testlab/static/media/GraphikLCG-Bold.768cd7c3be4c3b053725.ttf",
+    "static/media/GraphikLCG-Regular.ttf": "/testlab/static/media/GraphikLCG-Regular.35faf011ef568c1b8540.ttf",
+    "static/media/2_1.png": "/testlab/static/media/2_1.52a1e9a1a63aa0162346.png",
+    "static/media/2_2.png": "/testlab/static/media/2_2.fa1d2ba81e721464680b.png",
+    "index.html": "/testlab/index.html",
+    "main.83bfc13d.css.map": "/testlab/static/css/main.83bfc13d.css.map",
+    "main.b64788fb.js.map": "/testlab/static/js/main.b64788fb.js.map",
+    "453.c6770f9a.chunk.js.map": "/testlab/static/js/453.c6770f9a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.83bfc13d.css",
+    "static/js/main.b64788fb.js"
+  ]
+}
