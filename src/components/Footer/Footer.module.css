@@ -1,0 +1,23 @@
+.wrapper {
+  width: 100%;
+  height: 88px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hr {
+  border: none;
+  height: 1px;
+  width: 100%;
+  background-color: var(--light-gray);
+  margin: 0;
+}
+
+.wrapper p {
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+}

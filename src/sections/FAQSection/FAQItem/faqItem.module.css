@@ -1,0 +1,46 @@
+.container {
+  width: 100%;
+}
+
+.container hr {
+  border: none;
+  height: 1px;
+  background-color: var(--extra-light-gray);
+}
+
+.question {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+  min-height: 80px;
+  align-items: center;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.question:hover {
+  color: var(--primary);
+}
+
+.answer {
+  margin-top: 25px;
+  color: var(--dark-gray);
+  font-size: 18px;
+  line-height: 32px;
+  transition: height 0.5s ease;
+}
+
+.fade_in {
+  animation: fadeIn 0.3s ease-in-out forwards; /* Добавляем анимацию */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; /* Начальное состояние: прозрачный */
+  }
+  to {
+    opacity: 1; /* Конечное состояние: видимый */
+  }
+}

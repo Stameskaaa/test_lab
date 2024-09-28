@@ -1,0 +1,59 @@
+.main_section {
+  color: var(--white);
+  width: 100%;
+  height: 100vh;
+  background: url('../../assets/Lunch_atop_a_Skyscraper\ 1.png');
+  background-size: auto;
+  background-repeat: none;
+  background-position: center;
+  object-fit: cover;
+  @media (min-width: 1920px), (min-height: 960px) {
+    background-size: 100% 100vh;
+  }
+}
+
+.main_section::before {
+  content: '';
+  position: absolute;
+  background-color: var(--primary-hover);
+  opacity: 0.8;
+  width: 100%;
+  height: 100%;
+}
+
+.main__container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main__info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: clamp(1rem, 2vw, 2rem);
+}
+.main__info_top {
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+  word-wrap: break-word;
+
+  font-size: clamp(24px, 5vw, 52px);
+}
+
+.main__info_bottom {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  word-wrap: break-word;
+
+  font-size: clamp(16px, 4vw, 18px);
+}

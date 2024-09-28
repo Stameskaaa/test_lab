@@ -1,0 +1,17 @@
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 16px;
+  line-height: 28px;
+  cursor: pointer;
+  user-select: none;
+  height: 64px;
+}
+
+.checkBox {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+}

@@ -1,0 +1,56 @@
+.button {
+  user-select: none;
+  cursor: pointer;
+  min-width: 24px;
+  min-height: 24px;
+  border: 2px solid currentColor;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  color: inherit;
+  transition: transform 0.1s ease;
+}
+
+.button:active {
+  transform: scale(0.9);
+}
+
+.plus_button::before,
+.cross_button::before {
+  content: '';
+  width: 12px;
+  height: 2px;
+  background-color: currentColor;
+  position: absolute;
+}
+
+.plus_button::before {
+  transform: rotate(90deg);
+}
+
+.plus_button::after {
+  content: '';
+  width: 12px;
+  height: 2px;
+  background-color: currentColor;
+  position: absolute;
+}
+
+.cross_button::before,
+.cross_button::after {
+  content: '';
+  width: 12px;
+  height: 2px;
+  background-color: currentColor;
+  position: absolute;
+}
+
+.cross_button::before {
+  transform: rotate(45deg);
+}
+
+.cross_button::after {
+  transform: rotate(-45deg);
+}
